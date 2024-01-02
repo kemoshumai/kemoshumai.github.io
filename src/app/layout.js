@@ -1,7 +1,10 @@
-import { Inter } from 'next/font/google'
+import { M_PLUS_1 } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const defaultfont = M_PLUS_1({
+  subsets: ["latin"],
+  weight: ["200","500","900"]
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ja">
-      <body className={inter.className}>{children}</body>
+      <body className={defaultfont.className}>{children}</body>
     </html>
   )
 }
