@@ -5,6 +5,8 @@
   background-color: white;
   color: black;
   position: relative;
+  padding: 0;
+  margin: 0;
 }
 
 .main h1{
