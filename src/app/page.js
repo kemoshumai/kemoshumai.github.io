@@ -1,8 +1,12 @@
+import JumboHeader from './jumboheader'
 import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-    </main>
+    <div className={styles.main}>
+      <section>
+        <JumboHeader />
+      </section>
+    </div>
   )
 }
