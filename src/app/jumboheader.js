@@ -38,6 +38,16 @@ export default function JumboHeader() {
           }
         }
       />
+      <div className={styles.phrase}
+        style={
+          {
+            transform: `translate(0, ${displayPositionVh/1.5*-100}px)`,
+            opacity: displayPositionVh/1.2
+          }
+        }
+      >
+        <p>- CONTINUE -</p>
+      </div>
     </div>
   )
 }
