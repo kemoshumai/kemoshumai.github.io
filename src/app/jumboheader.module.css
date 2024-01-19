@@ -1,7 +1,7 @@
 .main{
   height: 150svh;
   max-width: 100vw;
-  overflow-x: hidden;
+  overflow: hidden;
   background-color: white;
   color: black;
   position: relative;
