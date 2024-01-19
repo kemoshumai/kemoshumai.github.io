@@ -7,7 +7,7 @@ export default function SocialLinks() {
       img: "/kemoshumai_icon_twitter.jpg",
       alt: "Twitter",
       title: "Twitter",
-      description: "主にここにいます。連絡もここによろしくおねがいします。"
+      description: "主にここにいます。連絡もここによろしくおねがいします。\nくだらない投稿が多めです。"
     },
     {
       img: "/kemoshumai_icon_github.png",
