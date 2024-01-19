@@ -13,6 +13,20 @@ export default function About() {
       <p>HSPから始まり、JavaScript/HTML/Python/Unity/Arduino/Rust/作曲/Blenderなどをやっています。</p>
       <p>AdobeのサブスクとJavaが苦手。</p>
       <p>いつかつよつよエンジニアになってろくろを回したい。</p>
+      <div className={styles.feature_field}>
+        <div>
+          <h3>誕生日</h3>
+          <p>3月12日(永遠の12才)</p>
+        </div>
+        <div>
+          <h3>血液 / 星座</h3>
+          <p>AB型 うお座</p>
+        </div>
+        <div>
+          <h3>性癖</h3>
+          <p><i>最重要機密</i></p>
+        </div>
+      </div>
     </div>
   )
 }

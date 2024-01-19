@@ -31,3 +31,19 @@
   aspect-ratio: 1;
   border-radius: 50%;
 }
+
+.feature_field{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.feature_field h3{
+  margin: 0;
+  padding: 0;
+}
+
+.feature_field p{
+  margin: 0;
+  padding: 0;
+}
