@@ -1,6 +1,7 @@
 import About from './about'
 import JumboHeader from './jumboheader'
 import styles from './page.module.css'
+import Projects from './projects'
 import SocialLinks from './sociallinks'
 
 export default function Home() {
@@ -14,6 +15,9 @@ export default function Home() {
       </section>
       <section>
         <SocialLinks />
+      </section>
+      <section>
+        <Projects />
       </section>
     </div>
   )
