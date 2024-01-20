@@ -1,3 +1,74 @@
 .main{
   text-align: center;
 }
+
+.project {
+  margin: 100px 0;
+}
+
+.project .title img{
+  width: 300px;
+}
+
+.project .title p{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.project .made{
+  width: 300px;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.project .made h3{
+  margin: 0;
+  padding: 0;
+}
+
+.linkbutton{
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  background-color: #000;
+  color: whitesmoke;
+  padding: 1rem;
+  position: relative;
+}
+
+.linkbutton a:visited {
+  color: whitesmoke;
+}
+
+.linkbutton::after {
+  content: ' →';
+}
+
+.linkbutton .top_left{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 50px;
+  height: 1.5rem;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.linkbutton .bottom_right{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 40px;
+  height: 1.5rem;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+@media screen and (min-width: 481px) {
+	/* 481px以上（タブレット） */
+  .project .made{
+    width: auto;
+    max-width: 500px;
+  }
+}
