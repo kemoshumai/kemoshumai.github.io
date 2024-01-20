@@ -10,6 +10,12 @@ export default function SocialLinks() {
       description: "主にここにいます。連絡もここによろしくおねがいします。\nくだらない投稿が多めです。"
     },
     {
+      img: "/kemoshumai_icon_pixiv.jpg",
+      alt: "Booth",
+      title: "Booth",
+      description: "作ったものはここで配布してます！"
+    },
+    {
       img: "/kemoshumai_icon_github.png",
       alt: "GitHub",
       title: "GitHub",
