@@ -21,6 +21,10 @@
   margin: 20px 0;
 }
 
+.link_card_wrapper a:visited{
+  color: rgb(33, 37, 41);
+}
+
 .link_card {
   text-align: left;
 }
