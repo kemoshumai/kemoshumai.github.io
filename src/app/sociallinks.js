@@ -71,7 +71,7 @@ export default function SocialLinks() {
       <p>フォローってボタンでつながれるらしいですよ</p>
       {
         LINKS.map(link=>
-          <div className={styles.link_card_wrapper}>
+          <div className={styles.link_card_wrapper} key={link.title}>
             
             <div className={styles.link_card}>
               <div className={styles.title}>
