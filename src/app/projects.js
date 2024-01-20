@@ -92,6 +92,64 @@ export default function Projects(){
 
         </div>
 
+        <div className={styles.title}>
+          <img src="/vrchat_tools.png" alt="VRChatギミック" />
+          <p>作ったVRChatギミック集</p>
+
+          <div className={styles.made}>
+            <h3>Twitter for SuRroom</h3>
+            <p>SuRroomの中で任意のアカウントのツイートが見れる機能です。</p>
+            <p>同一インスタンス内のほかのユーザーに同期されるほか、 後から来た人(LateJoiner)にも同期されます。 </p>
+            <p>ただし、最近のTwitterAPIの動向により公開を終了しています。 </p>
+            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">SurRoomで自分のツイッター見てる <a href="https://t.co/LJwEGzSE5E">https://t.co/LJwEGzSE5E</a> <a href="https://t.co/WM1WtlmJ5F">pic.twitter.com/WM1WtlmJ5F</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1619700011943751682?ref_src=twsrc%5Etfw">January 29, 2023</a></blockquote>
+          </div>
+
+          <div className={styles.made}>
+            <h3>SAS - Sleeping Auto Shift</h3>
+            <p>インスタンス内のフレンドの起床を検知し鳴るアラームです。</p>
+            <p>フレンドへの負担ゼロで、フレンドと一緒の時間に起きることができます。</p>
+            <p><strong>現在このギミックはモジュラーアバターに移行する作業をしています。現行のバージョンはレガシーとなります、必ずバックアップを取ったうえで、MAに移行してください。</strong></p>
+            <img src="FohkHJ2aMAAvnZU.jpg" alt="" />
+            <div className={styles.linkbutton}>
+              <div className={styles.top_left}></div>
+              <div className={styles.bottom_right}></div>
+              <a href={"https://kemoshumai.booth.pm/items/4530388"}>商品ページへ(無料)</a>
+            </div>
+          </div>
+
+          <div className={styles.made}>
+            <h3>Shumai Auto Copy</h3>
+            <p>VRChatのカメラで写真を撮ると撮った写真を自動でクリップボードにコピーしてくれるアプリです。</p>
+            <p>VRChat公式でやる方法を探しても見つからなかったので自分で作りました。公式の機能として欲しいくらいです。</p>
+            <p>Rustで書いたからか、結構処理が低負荷で、常駐しても違和感ないので気に入ってます。とりあえず入れとくべき。</p>
+            <img src="53a1487f-36fc-41d3-8356-c8a2b8f3b685.png" alt="" />
+            <div className={styles.linkbutton}>
+              <div className={styles.top_left}></div>
+              <div className={styles.bottom_right}></div>
+              <a href={"https://kemoshumai.booth.pm/items/5214867"}>商品ページへ(無料)</a>
+            </div>
+          </div>
+
+          <div className={styles.made}>
+            <h3>Shumai Pad v2</h3>
+            <p>音声認識してVRChatのChatboxで表示するアプリです。</p>
+            <p>旧式のシューマイパッドにも対応しています。</p>
+            <div className={styles.linkbutton}>
+              <div className={styles.top_left}></div>
+              <div className={styles.bottom_right}></div>
+              <a href={"https://kemoshumai.booth.pm/items/4668625"}>商品ページへ(無料)</a>
+            </div>
+          </div>
+
+          <div className={styles.made}>
+            <h3>Shumai Pad</h3>
+            <p>無言勢でも会話ができる端末を作りました。</p>
+            <p>これを発表した当時はまだChatboxなんてものVRChatには無かったので、すごい技術だったんですけどね...(今はChatboxが出てきちゃいましたから...)</p>
+            <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">無言勢でも会話ができる端末を作りました。<br />音声認識で動作します。<br />二番煎じだったらｺﾞﾒﾝﾅｻｲ。 <a href="https://t.co/U1cnm5BHyE">pic.twitter.com/U1cnm5BHyE</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1474002587926282240?ref_src=twsrc%5Etfw">December 23, 2021</a></blockquote>
+          </div>
+
+        </div>
+
       </div>
       <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script> 
     </div>
