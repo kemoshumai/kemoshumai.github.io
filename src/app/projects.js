@@ -150,6 +150,26 @@ export default function Projects(){
 
         </div>
 
+        <div className={styles.title}>
+          <img src="/kemoshumair.png" alt="KEMOSHUMAIR" />
+          <p>カメラ用自作レンズ</p>
+
+          <div className={styles.made}>
+            <h3>Kemonof</h3>
+            <p>3Dプリンタ製カメラレンズ自作第一弾です。</p>
+            <p>レンズ自体は他製品から取り出して作り、鏡筒とマウントを合わせることで作ります。</p>
+            <p>作例はこんな感じ</p>
+            <img src="DSC_0059.JPG" alt="" />
+            <img src="DSC_0126.JPG" alt="" />
+            <p>良く言えばオールドレンズ、悪く言えば価格相応ですね。</p>
+            <p>ちなみに同じカメラでレンズを変えるとこう。</p>
+            <img src="DSC_0529.JPG" alt="" />
+            <p>オールドレンズってことで許してね。</p>
+            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">Kemonofの試作機できた〜！ <a href="https://t.co/fcFfhmKTTC">pic.twitter.com/fcFfhmKTTC</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1695471583710879871?ref_src=twsrc%5Etfw">August 26, 2023</a></blockquote>
+          </div>
+
+        </div>
+
       </div>
       <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script> 
     </div>
