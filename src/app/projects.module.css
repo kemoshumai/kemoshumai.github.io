@@ -6,6 +6,10 @@
   margin: 100px 0;
 }
 
+.project .title{
+  margin-bottom: 150px;
+}
+
 .project .title img{
   width: 300px;
 }
@@ -63,6 +67,16 @@
   height: 1.5rem;
   border-bottom: 1px solid white;
   border-right: 1px solid white;
+}
+
+.dirty{
+  font-family: "zatsu";
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "zatsu";
+  src: url("/zdf5.ttf");
 }
 
 @media screen and (min-width: 481px) {

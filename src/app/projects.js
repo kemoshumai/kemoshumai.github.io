@@ -46,6 +46,24 @@ export default function Projects(){
 
         </div>
 
+        <div className={styles.title}>
+          <img src="/dirty_kemoshumai.png" alt="字が汚いツイート" />
+          <p>人間味の有る(擁護)文字でツイートしてみませんか？</p>
+
+          <div className={styles.made}>
+            <h3>dirty.kemoshumai.com</h3>
+            <p>私の手書きフォントでツイートができるサービスです。</p>
+            <p><a href="https://dirty.kemoshumai.com/">こちら</a>からアクセスできます。 </p>
+            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">= 手書きフォントのつくり方(自慢) =<br /><br />印刷して、書いて、スキャンする、を3000文字繰り返します。<br />一生使わなそうな漢字も、誰が使うか分からない絵文字も全部手書きします。<br />でも、書き終わって実際にフォントになったときの達成感がすごい…！<br /><br />写真は例のあのフォントの原本 <a href="https://t.co/S1B03vu1B9">pic.twitter.com/S1B03vu1B9</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1601234419880452097?ref_src=twsrc%5Etfw">December 9, 2022</a></blockquote>
+            <p>まあどんな文字かっていうと<span className=
+            {styles.dirty}>こういう文字なんですが、漢字まで全部を手書きして取り込んだので普段使いに困らないくらいのクオリティになってます。</span></p>
+            <p><span className={styles.dirty}>いえーい！ぴーすぴーーす！</span></p>
+            <p><span className={styles.dirty}><ruby>韮<rt>ニラ</rt></ruby>も<ruby>薔薇<rt>バラ</rt></ruby>も<ruby>玉葱<rt>たまねぎ</rt></ruby>だって収録済み！</span></p>
+            <p><span className={styles.dirty}>墾田永年私財法ーーーーーっ！</span></p>
+          </div>
+
+        </div>
+
       </div>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
     </div>
