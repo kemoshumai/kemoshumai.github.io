@@ -64,8 +64,36 @@ export default function Projects(){
 
         </div>
 
+        <div className={styles.title}>
+          <img src="/kemoshumai_no_ashu.png" alt="けもシューマイの亜種" />
+          <p>「けもシューマイになれるといいですね。」</p>
+
+          <div className={styles.made}>
+            <h3>診断メーカー版</h3>
+            <p>本家です。</p>
+            <p>なんて説明すればいいんだろう...</p>
+            <p>けもシューマイの亜種を引けるガチャ？です。143種類います。</p>
+            <p>君もけもシューマイを引こう！</p>
+            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">へびギョウザ<a href="https://twitter.com/hashtag/%E3%81%91%E3%82%82%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%9E%E3%82%A4%E3%81%AE%E4%BA%9C%E7%A8%AE?src=hash&amp;ref_src=twsrc%5Etfw">#けもシューマイの亜種</a> <a href="https://twitter.com/hashtag/shindanmaker?src=hash&amp;ref_src=twsrc%5Etfw">#shindanmaker</a><a href="https://t.co/AdHwN10Z1M">https://t.co/AdHwN10Z1M</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1748607808088736171?ref_src=twsrc%5Etfw">January 20, 2024</a></blockquote>
+            <div className={styles.linkbutton}>
+              <div className={styles.top_left}></div>
+              <div className={styles.bottom_right}></div>
+              <a href={"https://shindanmaker.com/1134841"}>けもシューマイの亜種を引く</a>
+            </div>
+          </div>
+
+          <div className={styles.made}>
+            <h3>VRChat版</h3>
+            <p>亜種です。</p>
+            <p>VRChat内で遊ぶことができるアバターギミックです。 </p>
+            <p>MA(モジュラーアバター)もだいぶ広まったのでいつか配布したいな。需要ないけど。</p>
+            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">しれっと当ててて鳥肌立った<br />おめでとう！！！ <a href="https://t.co/Lo26QWjd2P">pic.twitter.com/Lo26QWjd2P</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1624441457900945408?ref_src=twsrc%5Etfw">February 11, 2023</a></blockquote>
+          </div>
+
+        </div>
+
       </div>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+      <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script> 
     </div>
   )
 }
