@@ -10,7 +10,7 @@ export default function About() {
       </div>
       <img className={styles.twitter_icon} src="kemoshumai_icon_twitter.jpg" alt="けもシューマイ" />
       <p>昔から何かを作ることが好きな人間。</p>
-      <p>HSPから始まり、JavaScript/HTML/Python/Unity/Arduino/Rust/作曲/Blender/エスペラントなどをやっています。</p>
+      <p>HSPから始まり、JavaScript/HTML/Python/Unity/Arduino/Rust/作曲/Blender/エスペラント/カメラなどをやっています。</p>
       <p>AdobeのサブスクとJavaが苦手。</p>
       <p>いつかつよつよエンジニアになってろくろを回したい。</p>
       <div className={styles.feature_field}>

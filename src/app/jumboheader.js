@@ -20,14 +20,26 @@ export default function JumboHeader() {
   return (
     <div className={styles.main}>
       <img className={styles.background} src="/background.png" alt="" />
-      <h1
-        style={
-          {
-            transform: `translate(0,${displayPositionVh/1.5*300}vh)`,
-            opacity: 1-(displayPositionVh/0.5)
+      <div className={styles.techlist}>
+        <h1
+          style={
+            {
+              transform: `translate(0,${displayPositionVh/1.5*300}vh)`,
+              opacity: 1-(displayPositionVh/0.5)
+            }
           }
-        }
-      >Kemoshumai's works</h1>
+        >Kemoshumai's works</h1>
+        <p>JavaScript</p>
+        <p>HTML</p>
+        <p>Python</p>
+        <p>Unity</p>
+        <p>Arduino</p>
+        <p>Rust</p>
+        <p>作曲</p>
+        <p>Blender</p>
+        <p>エスペラント</p>
+        <p>カメラ</p>
+      </div>
       <div className={styles.accent_line}></div>
       <img
         className={styles.frontcharacter}
