@@ -3,6 +3,8 @@
 import { useEffect, useState } from 'react'
 import styles from './jumboheader.module.css'
 
+const relu = x => x > 0 ? x : 0;
+
 export default function JumboHeader() {
 
   const [displayPositionVh,setDisplayPositionVh] = useState(0);
@@ -29,16 +31,24 @@ export default function JumboHeader() {
             }
           }
         >Kemoshumai's works</h1>
-        <p>JavaScript</p>
-        <p>HTML</p>
-        <p>Python</p>
-        <p>Unity</p>
-        <p>Arduino</p>
-        <p>Rust</p>
-        <p>作曲</p>
-        <p>Blender</p>
-        <p>エスペラント</p>
-        <p>カメラ</p>
+        <div
+          style={
+            {
+              opacity: relu(1 - displayPositionVh*5)
+            }
+          }
+        >
+          <p>JavaScript</p>
+          <p>HTML</p>
+          <p>Python</p>
+          <p>Unity</p>
+          <p>Arduino</p>
+          <p>Rust</p>
+          <p>作曲</p>
+          <p>Blender</p>
+          <p>エスペラント</p>
+          <p>カメラ</p>
+        </div>
       </div>
       <div className={styles.accent_line}></div>
       <img
