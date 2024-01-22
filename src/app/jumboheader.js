@@ -7,7 +7,7 @@ const relu = x => x > 0 ? x : 0;
 
 export default function JumboHeader() {
 
-  const [displayPositionVh,setDisplayPositionVh] = useState(0);
+  const [displayPositionVh,setDisplayPositionVh] = useState(null);
 
   const onScroll = e => {
     setDisplayPositionVh(window.scrollY/window.innerHeight);
@@ -50,7 +50,7 @@ export default function JumboHeader() {
         </div>
       </div>
       <div className={styles.accent_line}></div>
-      <img
+      {displayPositionVh != null && <img
         className={styles.frontcharacter}
         src="/rusk_chan_normal_face.png"
         alt="" 
@@ -59,7 +59,7 @@ export default function JumboHeader() {
             transform: `translate(${displayPositionVh/1.5*200}vw,0)`
           }
         }
-      />
+      />}
       <div className={styles.phrase}
         style={
           {
