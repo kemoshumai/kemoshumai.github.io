@@ -47,7 +47,6 @@ export default function JumboHeader() {
           <p>作曲</p>
           <p>Blender</p>
           <p>エスペラント</p>
-          <p>カメラ</p>
         </div>
       </div>
       <div className={styles.accent_line}></div>
