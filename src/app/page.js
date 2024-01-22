@@ -1,4 +1,5 @@
 import About from './about'
+import Contact from './contact'
 import JumboHeader from './jumboheader'
 import styles from './page.module.css'
 import Projects from './projects'
@@ -18,6 +19,9 @@ export default function Home() {
       </section>
       <section>
         <Projects />
+      </section>
+      <section>
+        <Contact />
       </section>
     </div>
   )

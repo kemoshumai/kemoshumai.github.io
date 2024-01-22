@@ -1,0 +1,26 @@
+.main{
+  padding: 100px;
+  background-color: #c0aaa6;
+  text-align: center;
+}
+
+.contactlens{
+  width: 100px;
+  margin: 30px;
+}
+
+.info {
+  max-width: 400px;
+  text-align: left;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.info ul {
+  margin: 0;
+  padding: 0;
+}
+
+.info li {
+  margin: 10px 0;
+}
