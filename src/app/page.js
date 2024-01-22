@@ -1,5 +1,6 @@
 import About from './about'
 import Contact from './contact'
+import EasterEgg from './easteregg'
 import Footer from './footer'
 import JumboHeader from './jumboheader'
 import styles from './page.module.css'
@@ -27,6 +28,7 @@ export default function Home() {
       <footer>
         <Footer />
       </footer>
+      <EasterEgg />
     </div>
   )
 }
