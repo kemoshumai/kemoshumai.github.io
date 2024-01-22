@@ -1,5 +1,6 @@
 import About from './about'
 import Contact from './contact'
+import Footer from './footer'
 import JumboHeader from './jumboheader'
 import styles from './page.module.css'
 import Projects from './projects'
@@ -23,6 +24,9 @@ export default function Home() {
       <section>
         <Contact />
       </section>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   )
 }
