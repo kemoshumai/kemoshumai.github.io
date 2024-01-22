@@ -19,6 +19,10 @@ export default function JumboHeader() {
     return () => window.removeEventListener('scroll', onScroll);
   }, [])
 
+  if (displayPositionVh == null) {
+    return (<div style={{height: "150svh"}}></div>);
+  }
+
   return (
     <div className={styles.main}>
       <img className={styles.background} src="/background.png" alt="" />
@@ -50,7 +54,7 @@ export default function JumboHeader() {
         </div>
       </div>
       <div className={styles.accent_line}></div>
-      {displayPositionVh != null && <img
+      <img
         className={styles.frontcharacter}
         src="/rusk_chan_normal_face.png"
         alt="" 
@@ -59,7 +63,7 @@ export default function JumboHeader() {
             transform: `translate(${displayPositionVh/1.5*200}vw,0)`
           }
         }
-      />}
+      />
       <div className={styles.phrase}
         style={
           {
