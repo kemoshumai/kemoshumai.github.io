@@ -145,7 +145,7 @@ export default function Projects(){
             <h3>Shumai Pad</h3>
             <p>無言勢でも会話ができる端末を作りました。</p>
             <p>これを発表した当時はまだChatboxなんてものVRChatには無かったので、すごい技術だったんですけどね...(今はChatboxが出てきちゃいましたから...)</p>
-            <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">無言勢でも会話ができる端末を作りました。<br />音声認識で動作します。<br />二番煎じだったらｺﾞﾒﾝﾅｻｲ。 <a href="https://t.co/U1cnm5BHyE">pic.twitter.com/U1cnm5BHyE</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1474002587926282240?ref_src=twsrc%5Etfw">December 23, 2021</a></blockquote>
+            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">無言勢でも会話ができる端末を作りました。<br />音声認識で動作します。<br />二番煎じだったらｺﾞﾒﾝﾅｻｲ。 <a href="https://t.co/U1cnm5BHyE">pic.twitter.com/U1cnm5BHyE</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1474002587926282240?ref_src=twsrc%5Etfw">December 23, 2021</a></blockquote>
           </div>
 
         </div>
