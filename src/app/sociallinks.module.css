@@ -8,6 +8,10 @@
   padding: 10px 0;
 }
 
+.main a{
+  color: black;
+}
+
 .link_card{
   width: 520px;
   max-width: 90vw;
