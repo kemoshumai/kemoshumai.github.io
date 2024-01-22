@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./projects.module.css";
+import { Twitter } from "./components/twitter";
 
 export default function Projects(){
   return (
@@ -14,7 +15,7 @@ export default function Projects(){
           <div className={styles.made}>
             <h3>初代KEMONI</h3>
             <p>ボタンから自作した、ビートマニアが遊べそうな専用コントローラーです。だいたい2000円くらいで作ることができます。</p>
-            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">激安で作った割にはだいぶ良い感じ～～～！！ <a href="https://t.co/vrqbTqBTx6">pic.twitter.com/vrqbTqBTx6</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1594330827907031041?ref_src=twsrc%5Etfw">November 20, 2022</a></blockquote>
+            <Twitter url={"https://twitter.com/kemoshumai/status/1594330827907031041"} />
             <div className={styles.linkbutton}>
               <div className={styles.top_left}></div>
               <div className={styles.bottom_right}></div>
@@ -27,8 +28,8 @@ export default function Projects(){
             <p>より本格的なコントローラーです。</p>
             <p>遅延が改善されたほか、BLE-MIDIによりPCに接続することで実際のDJソフトを動かすことができる多機能コントローラーです。</p>
             <p>だいたい8000円くらいで作れます。 </p>
-            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">家がゲーセンなんだけど <a href="https://t.co/Z5CqWeWPsx">pic.twitter.com/Z5CqWeWPsx</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1631956359884472326?ref_src=twsrc%5Etfw">March 4, 2023</a></blockquote>
-            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">左下の映像だけならな...... <a href="https://t.co/KQRYHPLPNo">pic.twitter.com/KQRYHPLPNo</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1631706858871488512?ref_src=twsrc%5Etfw">March 3, 2023</a></blockquote>
+            <Twitter url={"https://twitter.com/kemoshumai/status/1631956359884472326"} />
+            <Twitter url={"https://twitter.com/kemoshumai/status/1631706858871488512?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1631706858871488512%7Ctwgr%5E384931cb150cb7a15fe9d32a6ea7d14c0eb4dffc%7Ctwcon%5Es1_c10&ref_url=http%3A%2F%2Flocalhost%3A3000%2F"} />
           </div>
 
           <div className={styles.made}>
@@ -36,7 +37,7 @@ export default function Projects(){
             <p>半日(12時間)で作った音ゲーです。</p>
             <p>VRChatでよく見るミラーボタンをタイミング良く押します。</p>
             <p>現在非公開</p>
-            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">無理でしょこの量のボタンは！！！！ <a href="https://t.co/CXss2PODCD">pic.twitter.com/CXss2PODCD</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1595429140475576320?ref_src=twsrc%5Etfw">November 23, 2022</a></blockquote>
+            <Twitter url={"https://twitter.com/kemoshumai/status/1595429140475576320?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1595429140475576320%7Ctwgr%5Ef56175b3f4eab16c7a22d9ac435c15a339f41e7e%7Ctwcon%5Es1_c10&ref_url=http%3A%2F%2Flocalhost%3A3000%2F"} />
           </div>
 
           <div className={styles.made}>
@@ -54,7 +55,7 @@ export default function Projects(){
             <h3>dirty.kemoshumai.com</h3>
             <p>私の手書きフォントでツイートができるサービスです。</p>
             <p><a href="https://dirty.kemoshumai.com/">こちら</a>からアクセスできます。 </p>
-            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">= 手書きフォントのつくり方(自慢) =<br /><br />印刷して、書いて、スキャンする、を3000文字繰り返します。<br />一生使わなそうな漢字も、誰が使うか分からない絵文字も全部手書きします。<br />でも、書き終わって実際にフォントになったときの達成感がすごい…！<br /><br />写真は例のあのフォントの原本 <a href="https://t.co/S1B03vu1B9">pic.twitter.com/S1B03vu1B9</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1601234419880452097?ref_src=twsrc%5Etfw">December 9, 2022</a></blockquote>
+            <Twitter url={"https://twitter.com/kemoshumai/status/1601234419880452097?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1601234419880452097%7Ctwgr%5Eb453ed46a116bae4022212b53a0658f71ea2cc5f%7Ctwcon%5Es1_c10&ref_url=http%3A%2F%2Flocalhost%3A3000%2F"} />
             <p>まあどんな文字かっていうと<span className=
             {styles.dirty}>こういう文字なんですが、漢字まで全部を手書きして取り込んだので普段使いに困らないくらいのクオリティになってます。</span></p>
             <p><span className={styles.dirty}>いえーい！ぴーすぴーーす！</span></p>
@@ -74,7 +75,7 @@ export default function Projects(){
             <p>なんて説明すればいいんだろう...</p>
             <p>けもシューマイの亜種を引けるガチャ？です。143種類います。</p>
             <p>君もけもシューマイを引こう！</p>
-            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">へびギョウザ<a href="https://twitter.com/hashtag/%E3%81%91%E3%82%82%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%9E%E3%82%A4%E3%81%AE%E4%BA%9C%E7%A8%AE?src=hash&amp;ref_src=twsrc%5Etfw">#けもシューマイの亜種</a> <a href="https://twitter.com/hashtag/shindanmaker?src=hash&amp;ref_src=twsrc%5Etfw">#shindanmaker</a><a href="https://t.co/AdHwN10Z1M">https://t.co/AdHwN10Z1M</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1748607808088736171?ref_src=twsrc%5Etfw">January 20, 2024</a></blockquote>
+            <Twitter url={"https://twitter.com/kemoshumai/status/1748607808088736171?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1748607808088736171%7Ctwgr%5Eb453ed46a116bae4022212b53a0658f71ea2cc5f%7Ctwcon%5Es1_c10&ref_url=http%3A%2F%2Flocalhost%3A3000%2F"} />
             <div className={styles.linkbutton}>
               <div className={styles.top_left}></div>
               <div className={styles.bottom_right}></div>
@@ -87,7 +88,7 @@ export default function Projects(){
             <p>亜種です。</p>
             <p>VRChat内で遊ぶことができるアバターギミックです。 </p>
             <p>MA(モジュラーアバター)もだいぶ広まったのでいつか配布したいな。需要ないけど。</p>
-            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">しれっと当ててて鳥肌立った<br />おめでとう！！！ <a href="https://t.co/Lo26QWjd2P">pic.twitter.com/Lo26QWjd2P</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1624441457900945408?ref_src=twsrc%5Etfw">February 11, 2023</a></blockquote>
+            <Twitter url={"https://twitter.com/kemoshumai/status/1624441457900945408?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1624441457900945408%7Ctwgr%5Ea5c5ccb116ab4fc16da338c99f2e7b7bfec3a27b%7Ctwcon%5Es1_c10&ref_url=http%3A%2F%2Flocalhost%3A3000%2F"} />
           </div>
 
         </div>
@@ -101,7 +102,7 @@ export default function Projects(){
             <p>SuRroomの中で任意のアカウントのツイートが見れる機能です。</p>
             <p>同一インスタンス内のほかのユーザーに同期されるほか、 後から来た人(LateJoiner)にも同期されます。 </p>
             <p>ただし、最近のTwitterAPIの動向により公開を終了しています。 </p>
-            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">SurRoomで自分のツイッター見てる <a href="https://t.co/LJwEGzSE5E">https://t.co/LJwEGzSE5E</a> <a href="https://t.co/WM1WtlmJ5F">pic.twitter.com/WM1WtlmJ5F</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1619700011943751682?ref_src=twsrc%5Etfw">January 29, 2023</a></blockquote>
+            <Twitter url={"https://twitter.com/kemoshumai/status/1619700011943751682?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1619700011943751682%7Ctwgr%5Eb797b9135f2f27a9df9e4ea082b7ddaa6da951c9%7Ctwcon%5Es1_c10&ref_url=http%3A%2F%2Flocalhost%3A3000%2F"} />
           </div>
 
           <div className={styles.made}>
@@ -145,7 +146,7 @@ export default function Projects(){
             <h3>Shumai Pad</h3>
             <p>無言勢でも会話ができる端末を作りました。</p>
             <p>これを発表した当時はまだChatboxなんてものVRChatには無かったので、すごい技術だったんですけどね...(今はChatboxが出てきちゃいましたから...)</p>
-            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">無言勢でも会話ができる端末を作りました。<br />音声認識で動作します。<br />二番煎じだったらｺﾞﾒﾝﾅｻｲ。 <a href="https://t.co/U1cnm5BHyE">pic.twitter.com/U1cnm5BHyE</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1474002587926282240?ref_src=twsrc%5Etfw">December 23, 2021</a></blockquote>
+            <Twitter url={"https://twitter.com/kemoshumai/status/1474002587926282240?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1474002587926282240%7Ctwgr%5Eb797b9135f2f27a9df9e4ea082b7ddaa6da951c9%7Ctwcon%5Es1_c10&ref_url=http%3A%2F%2Flocalhost%3A3000%2F"} />
           </div>
 
         </div>
@@ -165,13 +166,12 @@ export default function Projects(){
             <p>ちなみに同じカメラでレンズを変えるとこう。</p>
             <img src="DSC_0529.JPG" alt="" />
             <p>オールドレンズってことで許してね。</p>
-            <blockquote className="twitter-tweet"><p lang="ja" dir="ltr">Kemonofの試作機できた〜！ <a href="https://t.co/fcFfhmKTTC">pic.twitter.com/fcFfhmKTTC</a></p>&mdash; けもシューマイ (@kemoshumai) <a href="https://twitter.com/kemoshumai/status/1695471583710879871?ref_src=twsrc%5Etfw">August 26, 2023</a></blockquote>
+            <Twitter url={"https://twitter.com/kemoshumai/status/1695471583710879871?ref_src=twsrc%5Etfw"} />
           </div>
 
         </div>
 
       </div>
-      <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script> 
     </div>
   )
 }
