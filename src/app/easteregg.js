@@ -1,6 +1,11 @@
+"use client";
+import { useRouter } from "next/navigation";
 import styles from "./easteregg.module.css";
 
 export default function EasterEgg() {
+
+  const router = useRouter();
+
   return (
     <div className={styles.main}>
       <div className={styles.hidden}>
@@ -22,14 +27,22 @@ export default function EasterEgg() {
         <p>いいんだよ別に？グロリンク貼ってトラウマにしてあげてもいいんだが、私が優しくて命拾いしたな。</p>
         <p>まああの、なんていうんですか、今風に言うならイースターエッグ？を色々用意してるので</p>
         <p>ぜひ踏んでってください</p>
+        <p>パスワードは分かるはずです。管理人の推し(カタカナ8文字)です。</p>
       </div>
       <div className={styles.dots}>
         {
           [...Array(5)].map((_,i)=>(
-            <div>
+            <div key={i}>
               {
                 [...Array(20)].map((_,j)=>(
-                  <div className={styles.dot}>■</div>
+                  <div key={j} className={styles.dot} onClick={()=>{
+                    if (i == 2 && j == 11) {
+                      const pass = prompt('パスワード', '');
+                      if (pass == "ショウジョウトキ") {// 難読化は特にしない
+                        router.push("/secret");
+                      }
+                    }
+                  }}>■</div>
                 ))
               }
             </div>
