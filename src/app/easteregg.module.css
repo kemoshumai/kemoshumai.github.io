@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   background-color: #c0aaa6;
-  color: #c0aaa6;
   max-width: 700px;
   margin: 0 auto;
   width: 100vw;
@@ -11,6 +10,31 @@
   overflow: hidden;
 }
 
+.hidden {
+  color: #c0aaa6;
+}
+
 .main p{
   margin: 2rem 0;
+}
+
+.dots {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.dots > div{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.dots > div > .dot{
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: transparent;
+  cursor: pointer;
 }
